@@ -1,0 +1,107 @@
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap&quot";;
+body {
+            font-family: 'Inter', sans-serif; /* Garante que a fonte Inter está sendo usada */
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; /* Cor de fundo geral */
+            color: #333;
+            line-height: 1.6; /* Melhora a legibilidade do texto */
+        }
+        header {
+            background-color: #007bff; /* Azul vibrante, semelhante ao Ceep */
+            padding: 20px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem; /* Tamanho da fonte maior para o título */
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 10px;
+            display: flex;
+            justify-content: center; /* Centraliza os itens de navegação */
+        }
+        nav ul li {
+            margin: 0 15px; /* Espaçamento entre os itens */
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600; /* Negrito para os links de navegação */
+            font-size: 1.1rem; /* Tamanho da fonte um pouco maior */
+            transition: color 0.3s ease; /* Transição suave para a cor */
+        }
+        nav ul li a:hover {
+            color: #f0f0f0; /* Leve alteração de cor no hover */
+        }
+        main {
+            padding: 20px;
+            margin: 20px auto; /* Centraliza o conteúdo principal */
+            max-width: 1000px; /* Largura máxima para o conteúdo */
+            background-color: white;
+            border-radius: 8px; /* Bordas arredondadas */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+        }
+        section {
+            margin-bottom: 30px; /* Espaçamento entre as seções */
+        }
+        section h2 {
+            font-size: 1.8rem; /* Tamanho da fonte para os títulos das seções */
+            color: #007bff; /* Azul vibrante */
+            margin-bottom: 15px;
+            border-bottom: 2px solid #007bff; /* Linha abaixo do título */
+            padding-bottom: 5px;
+        }
+        .card {
+            background-color: #e9ecef; /* Cor de fundo dos cards */
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); /* Sutil sombra nos cards */
+        }
+        .card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: #007bff; /* Azul vibrante */
+        }
+        .form-container {
+            background-color: #e9ecef;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .form-container h2{
+           color: #007bff;
+           margin-bottom: 20px;
+        }
+        form label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold; /* Labels em negrito */
+            color: #555;
+        }
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ddd; /* Bordas mais claras */
+            border-radius: 5px;
+            box-sizing: border-box; /* Garante que o padding não afeta a largura */
+        }
+        form button {
+            background-color: #007bff; /* Azul vibrante */
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+            font-weight: 600; /* Negrito no botão */
+            transition: background-color 0.3s ease; /* Transição suave */
+        }
+        form button:hover {
+            background-color: #0056b3; /* Escurece no hover */
+        }
